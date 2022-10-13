@@ -1,0 +1,102 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: CircularStd;
+    
+}
+
+body {
+    margin: 0 auto
+}
+h5{
+    display: flex;
+    color: #f1f1f1;
+    justify-content: center;
+}
+
+
+/***    Sign in Page     ***/
+h2 {
+    font-weight: 300
+    
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    width: 25rem;
+    border-radius: 4px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 7px ;
+
+}
+
+#sub_btn {
+    display: block;
+    width: 15rem;
+    width: 15rem;
+    padding: .35rem;
+    margin-left: 3rem;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+/***    Sign Up Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+form {
+
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+.Rectangle {
+    width: 32.938rem;
+  height: 41.875rem;
+  margin: 0 0 0;
+  padding: 3.125rem 3.563rem 3.125rem 3.438rem;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+ 
+  background-color: rgba(0, 0, 0, 0.44);
+  }
+form{
+    background-color: #f3f3f3;
+}
